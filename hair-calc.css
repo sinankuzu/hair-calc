@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.container{
+  
+    max-width: 1200px;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.calc-container{
+    background-color: #2B79C2;
+    width: 650px;
+    height: 500px;
+    border-radius: 25px;
+    padding-top: 1px;
+    
+    
+    
+}
+
+.level{
+    width: 600px;
+    background-color: white;
+    height: 12px;
+    border-radius: 20px;
+    margin: 30px;
+    display: block;
+    
+    
+   
+}
+
+.level-1{
+    background-color: #B4C217;
+    width: 70px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 1px 1px;
+}
+
+/**.level-2{
+    background-color: #B4C217;
+    width: 140px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 1px 1px;
+}
+
+.level-3{
+    background-color: #B4C217;
+    width: 140px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 1px 1px;
+}
+*/
+
+
+.first-page p{
+    color: white;
+    font-size: 20px;
+}
+
+.image{
+    margin: 20px 0;
+}
+
+.button{
+    width: 350px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #B4C217;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.swiper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+    left: 75px;
+    
+}
+
+.first-page{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: -120px;
+}
+.second-page{
+    position: relative;
+    right: -300px;
+    width: 600px;
+    
+}
+
+.man-woman{
+    display: flex;
+    margin: 20px 0;
+}
+.man-woman img{
+    margin: 20px;
+}

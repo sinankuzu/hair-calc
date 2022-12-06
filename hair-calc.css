@@ -111,6 +111,15 @@
     right: -300px;
     width: 600px;
     
+    
+}
+
+.second-page:hover{
+    left: -300px;
+    transition: 10s;
+}
+.clicked{
+    transition: 1s;
 }
 
 .man-woman{

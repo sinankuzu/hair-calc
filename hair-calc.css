@@ -28,6 +28,8 @@
     height: 500px;
     border-radius: 25px;
     padding-top: 1px;
+    overflow: hidden;
+    
     
     
     
@@ -40,17 +42,15 @@
     border-radius: 20px;
     margin: 30px;
     display: block;
-    
-    
-   
 }
 
 .level-1{
     background-color: #B4C217;
     width: 70px;
-    height: 10px;
+    height: 12px;
     border-radius: 10px;
-    margin: 1px 1px;
+    margin: 1px 0;
+    transition: 1s;
 }
 
 /**.level-2{
@@ -95,32 +95,47 @@
     display: flex;
     justify-content: center;
     position: relative;
-   
+    
     left: 75px;
     
 }
 
 .first-page{
     text-align: center;
-    width: 100%;
-    position: relative;
-    right: -120px;
+    position: absolute;
+    right: 230px;
 }
+
 .second-page{
-    position: relative;
+    position: absolute;
     right: -300px;
-    width: 600px;
-    
     
 }
 
-.second-page:hover{
-    left: -300px;
-    transition: 10s;
+.third-page{
+    position: absolute;
+    right: -600px;
+    width: 400px;
 }
-.clicked{
+
+.third-page .images{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.current-page{
+    transition: 1s;
+    right: 210px;
+}
+
+.move-page{
+    right: 750px;
     transition: 1s;
 }
+
 
 .man-woman{
     display: flex;

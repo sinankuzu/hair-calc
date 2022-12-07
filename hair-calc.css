@@ -38,7 +38,7 @@
     height: 500px;
     border-radius: 25px;
     padding-top: 1px;
-    overflow: hidden;
+    overflow: visible;
     
     
     
@@ -145,7 +145,6 @@
     position: absolute;
     margin-top: 50px;
     margin-left: 1000px;
-    
     transition: 1s;
 }
 
@@ -176,3 +175,4 @@
     border-radius: 50%;
     transition: 0;
 }
+

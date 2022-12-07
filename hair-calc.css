@@ -133,11 +133,12 @@
     margin: 10px;
     position: relative;
     bottom: 0;
+    transition: 0.3s;
 }
 
 .man-woman img:hover{
    bottom: 30px;
-   transition: 0.5s;
+   transition: 0.3s;
 }
 
 .third-page{
@@ -171,6 +172,7 @@
 }
 
 .selected{
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 50%;
+    transition: 0;
 }

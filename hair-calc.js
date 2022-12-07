@@ -58,13 +58,13 @@ const next = (e) => {
     
     if (choosen == "woman") {
         pageThreeWoman.classList.add("current-page");
-        console.log("tiklandi kadin")
+       
         
       }
 
     else if (choosen =="man") {
         pageThreeMan.classList.add("current-page");
-        console.log("tiklandi erkek")
+        
     }
    
 
@@ -97,7 +97,8 @@ const back = () => {
     counter--;
   } else if (counter == 2) {
     pageTwo.classList.remove("move-page");
-    pageThree.classList.remove("current-page");
+    pageThreeMan.classList.remove("current-page");
+    pageThreeWoman.classList.remove("current-page")
     level.style.width = "300px";
     counter--;
   }
